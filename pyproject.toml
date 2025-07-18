@@ -1,0 +1,16 @@
+[project]
+name = "pe2json"
+version = "0.1.0"
+description = "Convert PE (Portable Executable) files information to JSON format."
+authors = [{ name = "David Martin", email = "zerodavesecurity@proton.me" }]
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "MIT" }
+dependencies = ["pefile>=2024.8.26"]
+
+[project.scripts]
+pe2json = "pe2json:main"
+
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
