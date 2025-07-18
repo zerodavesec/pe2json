@@ -1,7 +1,7 @@
 [project]
 name = "pe2json"
 version = "0.1.0"
-description = "Convert PE (Portable Executable) files information to JSON format."
+description = "Convert PE (Portable Executable) files to JSON format."
 authors = [{ name = "David Martin", email = "zerodavesecurity@proton.me" }]
 readme = "README.md"
 requires-python = ">=3.11"
