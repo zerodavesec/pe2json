@@ -52,7 +52,7 @@ python pe_to_json.py library.dll library.json
 python pe_to_json.py notepad.exe notepad.json
 ```
 
-### Python API
+### As a Python Module
 
 ```python
 from pe_to_json import pe_to_json, convert_to_serializable
@@ -110,7 +110,7 @@ The resulting JSON file will contain:
 
 ## 📋 Requirements
 
-- Python 3.8+
+- Python 3.11+
 - [`pefile`](https://pypi.org/project/pefile/) library
 
 ---
@@ -135,24 +135,24 @@ MIT License — feel free to use, modify, and distribute.
 
 ### Enhanced Output Options
 
-- **Memory-based processing** - Keep parsed data in memory instead of always writing files
-- **Direct string generation** - Output JSON as string variable for web applications
-- **Chunked file handling** - Process massive PE files piece by piece to avoid memory issues
-- **Output customization** - Let users control JSON spacing and organization
+- [ ] **Memory-based processing** - Keep parsed data in memory instead of always writing files
+- [ ] **Direct string generation** - Output JSON as string variable for web applications
+- [ ] **Chunked file handling** - Process massive PE files piece by piece to avoid memory issues
+- [ ] **Output customization** - Let users control JSON spacing and organization
 
 ### Targeted Analysis
 
-- **Focused extraction** - Parse only the PE sections you actually need
-- **Data transformation** - Apply custom rules to modify output during conversion
-- **Alternative formats** - Export to YAML or XML instead of JSON
-- **Speed improvements** - Make large file processing much faster
+- [ ] **Focused extraction** - Parse only the PE sections you actually need
+- [ ] **Data transformation** - Apply custom rules to modify output during conversion
+- [ ] **Alternative formats** - Export to YAML or XML instead of JSON
+- [ ] **Speed improvements** - Make large file processing much faster
 
 ### Workflow Integration
 
-- **Directory scanning** - Analyze hundreds of PE files automatically
-- **Database connectivity** - Send results directly to databases
-- **Tool chaining** - Connect with other security analysis software
-- **Remote analysis** - Accept PE files over HTTP for server-based processing
+- [ ] **Directory scanning** - Analyze hundreds of PE files automatically
+- [ ] **Database connectivity** - Send results directly to databases
+- [ ] **Tool chaining** - Connect with other security analysis software
+- [ ] **Remote analysis** - Accept PE files over HTTP for server-based processing
 
 ---
 
